@@ -1,0 +1,273 @@
+
+table, th, td {
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+body{
+  background-image: url("images/mountain.jpg");
+  background-repeat: no-repeat;
+  background-position: center top; /* Can hinh o giua va tren man hinh */
+  background-attachment: fixed; 
+}
+
+
+img.bgwelcome{
+	/* Welcome */
+
+position: absolute;
+width: 1366px;
+height: 768px;
+left: 0px;
+top: 0px;
+
+background: url("images/welcome.jpg"), #C4C4C4;
+}
+
+p.welcome{
+	/* Welcome to our website */
+
+position: absolute;
+width: 832px;
+height: 154px;
+left: 267px;
+top: 40px;
+
+font-family: UVN Binh Duong;
+font-style: normal;
+font-weight: normal;
+font-size: 100px;
+line-height: 124px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+p.welcome2{
+	position: absolute;
+width: 519px;
+height: 57px;
+left: 424px;
+top: 360px;
+
+font-family: UVN Bui Doi;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 62px;
+text-align: center;
+letter-spacing: 0.2em;
+
+color: #F4ADFF;
+
+}
+
+img.bgminhquang{
+	position: absolute;
+width: 1366px;
+height: 768px;
+left: 0px;
+top: 768px;
+
+background: url("images/bgminhquang.jpg"), #C4C4C4;
+}
+
+img.minhquang{
+	position: absolute;
+width: 350px;
+height: 350px;
+left: 95px;
+top: 859px;
+
+background: url("minhquang.jpg"), #C4C4C4;
+border-radius: 10px;
+}
+p.text1{
+	position: absolute;
+width: 490px;
+height: 38px;
+left: 492px;
+
+font-family: UTM Pacific Standard;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0.2em;
+
+color: #265E70;
+
+}
+
+img.bghongson{
+	/* Nguyễn Hồng Sơn */
+
+position: absolute;
+width: 1366px;
+height: 768px;
+left: 0px;
+top: 1536px;
+
+background: url("images/bghongson.jpg"), #C4C4C4;
+}
+
+img.hongson{
+	/* Rectangle */
+
+position: absolute;
+width: 350px;
+height: 350px;
+left: 909px;
+top: 1631px;
+
+background: url("images/hongson.jpg"), #C4C4C4;
+border-radius: 10px;
+}
+
+p.text2{
+	/* MSSV: 17130193 */
+
+position: absolute;
+width: 490px;
+height: 38px;
+left: 358px;
+top: 1631px;
+
+font-family: UTM Swiss Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 33px;
+text-align: right;
+letter-spacing: 0.2em;
+
+color: black;
+
+
+}
+img.bgthanhquy{
+	/* Võ Thành Quý */
+
+position: absolute;
+width: 1366px;
+height: 768px;
+left: 0px;
+top: 2304px;
+
+background: url("images/bgthanhquy.jpg"), #C4C4C4;
+}
+
+img.thanhquy{
+	position: absolute;
+width: 350px;
+height: 350px;
+left: 112px;
+top: 2380px;
+
+background: url("images/thanhquy.jpg"), #C4C4C4;
+border-radius: 10px;
+}
+
+p.text3{
+	/* MSSV: 17130184. */
+
+position: absolute;
+width: 490px;
+height: 38px;
+left: 521px;
+top: 2380px;
+
+font-family: UVN Doi Moi;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+letter-spacing: 0.2em;
+
+color: #FFF6A5;
+}
+
+img.bgmyhao{
+	/* Trương Thị Mỹ Hảo */
+
+position: absolute;
+width: 1366px;
+height: 768px;
+left: 0px;
+top: 3072px;
+
+}
+
+img.myhao{
+	position: absolute;
+width: 350px;
+height: 350px;
+left: 908px;
+top: 3144px;
+
+
+border-radius: 10px;
+}
+
+p.text4{
+	/* MSSV: 17130058 */
+
+position: absolute;
+width: 490px;
+height: 38px;
+left: 360px;
+top: 3137px;
+
+font-family: UTM Showcard;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 34px;
+text-align: right;
+letter-spacing: 0.2em;
+
+color: #FFF7DC;
+
+}
+
+img.bgdieuhuong{
+	/* Lê Thị Diệu Hương */
+
+position: absolute;
+width: 1366px;
+height: 768px;
+left: 0px;
+top: 3840px;
+
+}
+
+img.dieuhuong{
+	position: absolute;
+width: 350px;
+height: 350px;
+left: 95px;
+top: 3913px;
+
+background: url("images/dieuhuong.jpg"), #C4C4C4;
+border-radius: 10px;
+}
+
+p.text5{
+	/* MSSV: 17130082 */
+
+position: absolute;
+width: 490px;
+height: 38px;
+left: 504px;
+top: 3913px;
+
+font-family: UVN Anh Hai Nhe;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.2em;
+
+color: #1F001C;
+
+}
