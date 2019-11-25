@@ -2250,3 +2250,39 @@ input:focus {
     }
 
 /*# sourceMappingURL=style.css.map */
+.weekwork{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.weekwork ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.weekwork ul li{
+  list-style: none;
+}
+.weekwork ul li a {
+  position: relative;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #262626;
+  font-weight: bold;
+}
+.weekwork ul li.actives a{
+  background: #262626;
+  color:#fff;
+}
+.design{
+  margin-left: 25%;
+}
+.img{
+  width: 50%;
+  height: 500px;
+}
+.buttondl{
+margin-top:20px;
+margin-left:200px;
+}
