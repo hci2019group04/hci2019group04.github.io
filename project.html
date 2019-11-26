@@ -10,6 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
     <!-- Title -->
     <title>Project</title>
@@ -101,6 +102,7 @@
                                     <li><a href="project.html">Project</a></li>
                                     <li><a href="styleGuide.html">Style Guide</a></li>
                                     <li><a href="technology.html">Technology</a></li>
+                                    <li><a href="result.html">Result</a></li>
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
 
@@ -122,6 +124,21 @@
         </div>
     </header>
     <!-- Header Area End -->
+	
+	
+         <!-- BREADCRUMB -->
+<section>
+    <div class="container">
+   <nav aria-label="breadcrumb" >
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html" style="color: #ccc">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page"><a style="color: #000000">Project</a></li>
+  </ol>
+  </nav>
+  </div>
+
+</section>
+        <!-- /BREADCRUMB -->
 
    
 
@@ -271,11 +288,12 @@
                                         
                                           <!-- Tab panes -->
                                           <div class="tab-content">
-                                            <div id="Design" class="container tab-pane active"><br>
-                                               <h3>1. Thiết kế trang xem thông tin tông quát về Iphone</h3>
+                                           <div id="Design" class="container tab-pane active"><br>
+                                               <h3>1. Thiết kế trang xem thông tin tổng quát về Iphone</h3>
                                                <div class="row">
                                                    <div class="col-sm-6">
-                                                       <strong>Thiet ke tren giay:</strong>
+                                                       <strong><i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                        Thiet ke tren giay:</strong>
                                                        <img src="img/design_macduong/store-iphone.jpg" style="width:100%" alt=""></br>
                                                        <a href="img/design_macduong/store-iphone.fig" download="img/design_macduong/store-iphone.fig">
                                                         <button type="button" class="btn btn-outline-primary buttondl">Dowload</button>
@@ -283,7 +301,8 @@
                                                           
                                                    </div>
                                                    <div class="col-sm-6">
-                                                        <strong>Thiet ke trên figma</strong>
+                                                        <strong><i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                            Thiet ke trên figma</strong>
                                                         <img src="img/design_macduong/store-iphone-figma.jpg" style="width:100%" alt="">
                                                         <a href="img/design_macduong/store-iphone.fig" download="img/design_macduong/store-iphone.fig">
                                                             <button type="button" class="btn btn-outline-primary buttondl">Dowload</button>
@@ -294,12 +313,18 @@
                                                <h3>2. Thiết kế Footer</h3>
                                                <div class="row">
                                                     <div class="col-sm-6">
-                                                        <strong>Thiet ke tren giay:</strong>
-                                                        <img src="img/4.3s.jpg" style="width:100%" alt="">
+                                                        <strong><i class="fa fa-picture-o" aria-hidden="true"></i>Thiet ke tren giay:</strong>
+                                                       <img src="img/design_macduong/footer.jpg" style="width:100%" alt="">
+                                                        <a href="img/design_macduong/footer.fig" download="img/design_macduong/footer.fig">
+                                                            <button type="button" class="btn btn-outline-primary buttondl">Dowload</button>
+                                                        </a>
                                                     </div>
                                                     <div class="col-sm-6">
-                                                         <p>Thiet ke trên figma</p>
-                                                         <img src="img/4.3s.jpg" style="width:100%" alt="">
+                                                         <strong><i class="fa fa-picture-o" aria-hidden="true"></i>Thiet ke trên figma</strong>
+                                                         <img src="img/design_macduong/footer-figma.jpg" style="width:100%" alt="">
+                                                        <a href="img/design_macduong/footer.fig" download="img/design_macduong/footer.fig">
+                                                            <button type="button" class="btn btn-outline-primary buttondl">Dowload</button>
+                                                        </a>
                                                      </div>
                                                     
                                                 </div>
@@ -337,9 +362,50 @@
                             </div>
                         <!-- Single Tab Content -->
                         <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab-3">
-                            <div class="row"> 
-                                   
-                                </div>                         
+                                <div class="container">
+                                        <div id="accordion">
+                                          <div class="card">
+                                            <div class="card-header">
+                                              <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                                               Front-end</a>
+                                              
+                                             <a href="http://quanghaistore.tk/">
+                                                  <button type="button" class="btn btn-outline-info ml-5">Go to Project</button>
+                                            </a>
+                                            </div>
+                                            <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                              <div class="card-body">
+                                                <p>1. Thiết kế giao diện trang chủ</p>
+                                                <p>2. Thiết kế trang xem sản phẩm về Iphone</p>
+						      <p>3. Thiết kế trang xem sản phẩm về iPad</p>
+						      <p>4. Thiết kế trang xem sản phẩm về Macbook</p>
+						      <p>5. Thiết kế trang xem sản phẩm về Phụ kiện</p>
+						<p>6. Thiết kế header-footer</p>
+						      <p>7. Thiết kế chi tiết từng sản phẩm</p>
+						      
+						<p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header">
+                                              <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                                              Back-end
+                                              
+                                            </a>
+                                            <a href="http://quanghaistore.tk/">
+                                                <button type="button" class="btn btn-outline-info ml-5">Go to Project</button>
+                                          </a>
+                                            </div>
+                                            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                              <div class="card-body">
+                                               <p> Chưa hoàn thành</p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          
+                                        </div>
+                                      </div>                      
                         </div>
                                        
                     
