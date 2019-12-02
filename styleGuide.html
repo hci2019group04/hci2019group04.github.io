@@ -20,6 +20,7 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleGuide.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
@@ -130,7 +131,6 @@
 
 
 
-        
       <!-- BREADCRUMB -->
 <section>
     <div class="container">
@@ -138,7 +138,7 @@
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="index.html" style="color: #000000"><strong>Home</strong></a></li>
      <li class="breadcrumb-item"><a href="groupDiary.html" style="color: #000000"><strong>Style Guide</strong></a></li>
-   
+
   </ol>
   </nav>
   </div>
@@ -146,14 +146,107 @@
 </section>
         <!-- /BREADCRUMB -->
 
-    <section class="razo-latest-podcast-area section-padding-80">
+    <section class="styleGuide-Container">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <!-- Section Heading -->
-                    <div class="section-heading" style="text-align: center">
-                        
-                    </div>
+						<div class="tab-StyleGuide ">
+
+							<button class="tablinks" onclick="openCity(event, 'Layout')" id="defaultOpen">Layout</button>
+							<button class="tablinks" onclick="openCity(event, 'Typography')">Typography</button>
+							<button class="tablinks" onclick="openCity(event, 'Color Palette')">Color Palette</button>
+							<button class="tablinks" onclick="openCity(event, 'Image')">Image</button>
+							<button class="tablinks" onclick="openCity(event, 'File and Directory')">File and Directory</button>
+
+						</div>
+
+						<div id="Layout" class="tabcontent-StyleGuide">
+						<div class="description">
+							<strong>1. Homepage layout:</strong>
+							<div class="display-flex">
+							<div class="header">
+								Header
+								<span class="detail"><small>(height: 90px)</small></span>
+							</div>
+							<div class="slider">
+								Slider
+								<span class="detail"><small>(height: ???)</small></span>
+							</div>
+							<div class="footer">
+								Footer
+								<span class="detail"><small>(height: 120px)</small></span>
+							</div>
+							</div>
+							<strong>2. Other page layout:</strong>
+							<div class="display-flex">
+							<div class="header">
+								Header
+								<span class="detail"><small>(height: 90px)</small></span>
+							</div>
+							<div class="navigation">
+								Navigation
+								<span class="detail"><small>(height: ???)</small></span>
+							</div>
+							<div class="content">
+								content area
+								<span class="detail"><small>(height: ???)</small></span>
+							</div>
+							<div class="footer">
+								Footer
+								<span class="detail"><small>(height: 120px)</small></span>
+							</div>
+							</div>
+							</div>
+						</div>
+
+						<div id="Typography" class="tabcontent-StyleGuide ">
+						<div class="description">
+						<strong>Typography</strong>
+						<div class="typography">
+							<div>Header Level 1</div>
+							<div>Header Level 2</div>
+							<div>Header Level 3</div>
+							<div>This is a paragraph.</div>
+							</div>
+						</div>
+						</div>
+
+						<div id="Color Palette" class="tabcontent-StyleGuide ">
+						<div class="description">
+						<strong>Color</strong>
+						<div class="box">
+							<div>#565656</div>
+							<div>#212529</div>
+							<div>#dc2878</div>
+							<div>#e9ecef</div>
+							<div>#007bff</div>
+							<div>#28a745</div>
+							</div>
+						</div>
+						<div class="description">
+						<strong>Text</strong>
+						<div class="text">
+							<div>hover link #dc2878</div>
+							<div>text #191919</div>
+							<div>text #6e6e6e</div>
+							</div>
+						</div>
+						</div>
+
+						<div id="Image" class="tabcontent-StyleGuide ">
+						Logo:  113.63 x 39<br>
+						Slide imgae:  1944 X 1455<br>
+						Photo of members: 100 x 133<br>
+						Address icon: 18 x 18<br>
+						Facebook icon: 13.5 x 18<br>
+						Four member photo clusters: 255 x 266<br>
+						Scoll up icon: 40x40
+						</div>
+
+						<div id="File and Directory" class="tabcontent-StyleGuide ">
+						<p>Tokyo is the capital of Japan.</p>
+						</div>
+
                 </div>
             </div>
 
@@ -177,7 +270,6 @@
                             <h2> About us</h2>
                             <p>Never give up. Today is hard, tomorrow will be worse, but the day after tomorrow will be sunshine..</p>
 
-                            
                         </div>
                     </div>
 
@@ -235,7 +327,7 @@
                                             <a href="#">Nong Lam University</a>
                                         </div>
                                     </div>
-        
+
                                     <div class="single-twitter-feed d-flex">
                                         <div class="tweet-icon">
                                                 <i class="icon_phone"></i>
@@ -244,7 +336,7 @@
                                             <a href="#">0388929625</a>
                                         </div>
                                     </div>
-        
+
                                     <div class="single-twitter-feed d-flex">
                                         <div class="tweet-icon">
                                                 <i class="icon_mail_alt"></i>
@@ -254,13 +346,12 @@
                                         </div>
                                     </div>
                                 </div>
-                           
-                       
+
                     </div>
                 </div>
             </div>
         </div>
-      
+
 
         <!-- botton-footer -->
        <div class="copywrite-area">
@@ -297,7 +388,24 @@
     <script src="js/razo.bundle.js"></script>
     <!-- Active -->
     <script src="js/default-assets/active.js"></script>
+	<script>
+	function openCity(evt, cityName) {
+	  var i, tabcontent, tablinks;
+	  tabcontent = document.getElementsByClassName("tabcontent-StyleGuide");
+	  for (i = 0; i < tabcontent.length; i++) {
+	    tabcontent[i].style.display = "none";
+	  }
+	  tablinks = document.getElementsByClassName("tablinks");
+	  for (i = 0; i < tablinks.length; i++) {
+	    tablinks[i].className = tablinks[i].className.replace(" active", "");
+	  }
+	  document.getElementById(cityName).style.display = "block";
+	  evt.currentTarget.className += " active";
+	}
 
+	// Get the element with id="defaultOpen" and click on it
+	document.getElementById("defaultOpen").click();
+	</script>
 </body>
 
 </html>
