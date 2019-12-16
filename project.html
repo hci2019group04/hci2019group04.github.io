@@ -6,11 +6,7 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+   
     <!-- Title -->
     <title>Project</title>
 
@@ -19,6 +15,7 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -97,7 +94,7 @@
                                 <ul id="nav">
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="about.html">About</a> </li>
-                                    <li><a href="groupDiary.html">Group Diary</a></li>
+                                    <li><a href="groupdiary.html">Group Diary</a></li>
                                     <li><a href="project.html">Project</a></li>
                                     <li><a href="styleGuide.html">Style Guide</a></li>
                                     <li><a href="technology.html">Technology</a></li>
@@ -123,11 +120,26 @@
         </div>
     </header>
     <!-- Header Area End -->
+      
 
+      <!-- BREADCRUMB -->
+<section>
+    <div class="container">
+   <nav aria-label="breadcrumb" >
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html" style="color: #000000"><strong>Home</strong></a></li>
+     <li class="breadcrumb-item"><a href="groupDiary.html" style="color: #000000"><strong>Project</strong></a></li>
+   
+  </ol>
+  </nav>
+  </div>
+
+</section>
+        <!-- /BREADCRUMB -->
    
 
     <!-- Show Routine Area Start -->
-    <section class="show-routine-area section-padding-80-0 mb-50">
+    <section class="show-routine-area  mb-50">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -140,13 +152,13 @@
                         </li>
                         <!-- Single Nav Item -->
                         <li class="nav-item">
-                            <a class="nav-link" id="tab-2" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">
+                            <a class="nav-link" id="tab-2"  href="project-design.html"  aria-selected="false">
                                 Design
                             </a>
                         </li>
                         <!-- Single Nav Item -->
                         <li class="nav-item">
-                            <a class="nav-link" id="tab-3" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">
+                            <a class="nav-link" id="tab-3" data-toggle="tab" href="project-implementation.html" role="tab" aria-controls="tab3" aria-selected="false">
                               Implementation
                             </a>
                         </li>
@@ -155,183 +167,115 @@
                     </ul>
                     <div class="tab-content" id="showRoutineTabContent">
                         <!-- Single Tab Content -->
-                        <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab-1">
+                       
                             <div class="row">
-                                <h3><p style="text-align:center;"></p></h3>	
-					<table class="table">
-						<thead>
-							<tr>
-								<th>STT</th>
-								<th>Chức năng</th>
-								<th>Người đề xuất</th>
-								<th>Người thiết kế</th>
-								<th>Người thực hiện</th>
-								<th>Thời gian dự kiến</th>
-								<th>Trạng thái</th>
-							</tr>
-						</thead>
-                        <tbody>
-                            <tr>
-                              <td>1</td>
-                              <td>Header-Footer</td>
-                              <td>Cả nhóm</td>
-                              <td> Minh Hiếu - Hoàng Dương</td>
-                              <td>Minh Hiếu - Hoàng Dương</td>
-                              <td>01/10/2019 - 20/10/2019</td>
-                              <td> Đã hoàn thành</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Xem thông tin tổng quát</td>
-                                <td>Cả nhóm</td>
-                                <td>Trần Minh Quang</td>
-                                <td>Trần Minh Quang</td>
-                                <td>01/10/2019 - 20/10/2019</td>
-                                <td>Hoàn Thành 70%</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Đăng nhập</td>
-                                <td>Cô</td>
-                                <td>Nguyễn Minh Hiếu</td>
-                                <td>Nguyễn Minh Hiếu</td>
-                                <td>19/9/2019 - 31/9/2019</td>
-                                <td> Đã Hoàn thành</td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Khôi phục tài khoản</td>
-                                <td>Cô</td>
-                                <td>Trần Minh Quang</td>
-                                <td>Trần Minh Quang</td>
-                                <td>19/9/2019 - 31/9/2019</td>
-                                <td>Đã Hoàn thành </td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>Đăng ký </td>
-                                <td>Cô</td>
-                                <td>Mạc Phạm Hoàng Dương</td>
-                                <td>Mạc Phạm Hoàng Dương</td>
-                                <td>19/9/2019 - 31/9/2019</td>
-                                <td>Đã Hoàn thành </td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
-                                <td>Xem thông tin tổng quát về Iphone và chi tiết sản phẩm</td>
-                                <td>Cả nhóm</td>
-                                <td>Mạc Phạm Hoàng Dương</td>
-                                <td>Mạc Phạm Hoàng Dương</td>
-                                <td>01/10/2019 - 20/10/2019</td>
-                                <td>Hoàn thành 70%</td>
-                            </tr>
-                            <tr>
-                                <td>7</td>
-                                <td>Xem thông tin tổng quát MacBook và chi tiết sản phẩm</td>
-                                <td>Cả nhóm</td>
-                                <td>Nguyễn Minh Hiếu</td>
-                                <td>Nguyễn Minh Hiếu</td>
-                                <td>01/10/2019 - 20/10/2019</td>
-                                <td>Hoàn thành 70%</td>
-                            </tr> <tr>
-                                <td>8</td>
-                                <td>Xem thông tin tổng quát Ipad và chi tiết sản phẩm</td>
-                                <td>Cả nhóm</td>
-                                <td>Ngô Minh Hải</td>
-                                <td>Ngô Minh Hải</td>
-                                <td>01/10/2019 - 20/10/2019</td>
-                                <td>Hoàn thành 70%</td>
-                            </tr>
-                            
-                          </tbody>
-                    
-
-					</table>
-					
-                               
+                                <div class="table-responsive">
+                                        <table class="table table-bordered">
+                                                <thead>
+                                                        <tr>
+                                                            <th>STT</th>
+                                                            <th>Chức năng</th>
+                                                            <th>Người xuất</th>
+                                                            <th>Người thiết kế</th>
+                                                            <th>Người hiện thực</th>
+                                                            <th>Thời gian dự kiến</th>
+                                                            <th>Trạng thái</th>
+                                                        </tr>
+                                                    </thead>
+                                          <tbody>
+                                                <tr>
+                                                        <td>1</td>
+                                                        <td>Đăng nhập</td>
+                                                        <td>Cô</td>
+                                                        <td>Mạc Phạm Hoàng Dương</td>
+                                                        <td>Mạc Phạm Hoàng Dương</td>
+                                                        <td>19/9/2019 - 31/9/2019</td>
+                                                        <td> Đã hoàn thành</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Khôi phục tài khoản</td>
+                                                        <td>Cô</td>
+                                                        <td>Trần Minh Quang</td>
+                                                        <td>Trần Minh Quang</td>
+                                                        <td>19/9/2019 - 31/9/2019</td>
+                                                        <td>Đã hoàn thành </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>Đăng ký </td>
+                                                        <td>Cô</td>
+                                                        <td>Nguyễn Minh Hiếu</td>
+                                                        <td>Ngô Minh Hải</td>
+                                                        <td>19/9/2019 - 31/9/2019</td>
+                                                        <td>Đã hoàn thành </td>
+                                                    </tr>
+                                                    
+                                                <tr>
+                                                        <td>4</td>
+                                                        <td>Header</td>
+                                                        <td>Cả nhóm</td>
+                                                        <td> Nguyễn Minh Hiếu</td>
+                                                        <td> Nguyễn Minh Hiếu </td>
+                                                        <td>01/10/2019 - 20/10/2019</td>
+                                                        <td> Đã hoàn thành</td>
+                                                      </tr>
+                                                      <tr>
+                                                            <td>5</td>
+                                                            <td>Footer</td>
+                                                            <td>Cả nhóm</td>
+                                                            <td>Mạc Phạm Hoàng Dương</td>
+                                                            <td>Mạc Phạm Hoàng Dương</td>
+                                                            <td>01/10/2019 - 20/10/2019</td>
+                                                            <td> Đã hoàn thành</td>
+                                                          </tr>
+                                                      <tr>
+                                                            <td>6</td>
+                                                            <td>Xem thông tin trên trang chủ</td>
+                                                            <td>Cả nhóm</td>
+                                                            <td>Trần Minh Quang</td>
+                                                            <td>Trần Minh Quang</td>
+                                                            <td>01/10/2019 - 27/10/2019</td>
+                                                            <td>Hoàn thành 70%</td>
+                                                        </tr>
+                                                            <tr>
+                                                                <td>7</td>
+                                                                <td>Xem thông tin tổng quát về Iphone</td>
+                                                                <td>Cả nhóm</td>
+                                                                <td>Mạc Phạm Hoàng Dương</td>
+                                                                <td>Mạc Phạm Hoàng Dương</td>
+                                                                <td>01/10/2019 - 27/10/2019</td>
+                                                                <td>Hoàn thành 70%</td>
+                                                            </tr>
+                                                            <tr>
+                                                                    <td>8</td>
+                                                                    <td>Xem thông tin tổng quát về Macbook</td>
+                                                                    <td>Cả nhóm</td>
+                                                                    <td>Nguyễn Minh Hiếu</td>
+                                                                    <td>Nguyễn Minh Hiếu</td>
+                                                                    <td>01/10/2019 - 27/10/2019</td>
+                                                                    <td>Hoàn thành 70%</td>
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>9</td>
+                                                                        <td>Xem thông tin tổng quát về Ipad</td>
+                                                                        <td>Cả nhóm</td>
+                                                                        <td>Ngô Minh Hải</td>
+                                                                        <td>Ngô Minh Hải</td>
+                                                                        <td>01/10/2019 - 27/10/2019</td>
+                                                                        <td>Hoàn thành 70%</td>
+                                                                    </tr>
+                                                            
+                                           
+                                          </tbody>
+                                        </table>
+                                      </div>
+                                   
                             </div>
-                        </div>
+                      
 
                         <!-- Single Tab Content -->
-                        <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab-2">
-                               <div class="row">
-                                    <ul class="nav nav-tabs design" role="tablist">
-                                            <li class="nav-item">
-                                              <a class="nav-link active" data-toggle="tab" href="#Design">Mạc Phạm Hoàng Dương</a>
-                                            </li>
-                                            <li class="nav-item">
-                                              <a class="nav-link" data-toggle="tab" href="#Design1">Trần Minh Quang</a>
-                                            </li>
-                                            <li class="nav-item">
-                                              <a class="nav-link" data-toggle="tab" href="#Design2">Nguyễn Minh Hiếu</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                    <a class="nav-link" data-toggle="tab" href="#Design3">Ngô Minh Hải</a>
-                                            </li>
-                                          </ul>
-                                        
-                                          <!-- Tab panes -->
-                                          <div class="tab-content">
-                                            <div id="Design" class="container tab-pane active"><br>
-                                               <h3>1. Thiết kế trang xem thông tin tổng quát về Iphone</h3>
-                                               <div class="row">
-                                                   <div class="col-sm-6">
-                                                       <strong><i class="fa fa-picture-o" aria-hidden="true"></i>
-                                                        Thiet ke tren giay:</strong>
-                                                       <img src="img/design_macduong/store-iphone.jpg" style="width:100%" alt=""></br>
-                                                       <a href="img/design_macduong/store-iphone.fig" download="img/design_macduong/store-iphone.fig">
-                                                        <button type="button" class="btn btn-outline-primary buttondl">Dowload</button>
-                                                    </a>
-                                                          
-                                                   </div>
-                                                   <div class="col-sm-6">
-                                                        <strong><i class="fa fa-picture-o" aria-hidden="true"></i>
-                                                            Thiet ke trên figma</strong>
-                                                        <img src="img/design_macduong/store-iphone-figma.jpg" style="width:100%" alt="">
-                                                        <a href="img/design_macduong/store-iphone.fig" download="img/design_macduong/store-iphone.fig">
-                                                            <button type="button" class="btn btn-outline-primary buttondl">Dowload</button>
-                                                        </a>
-                                                    </div>
-                                                   
-                                               </div>
-                                               <h3>2. Thiết kế Footer</h3>
-                                               <div class="row">
-                                                    <div class="col-sm-6">
-                                                        <strong><i class="fa fa-picture-o" aria-hidden="true"></i>Thiet ke tren giay:</strong>
-                                                       <img src="img/design_macduong/footer.jpg" style="width:100%" alt="">
-                                                        <a href="img/design_macduong/footer.fig" download="img/design_macduong/footer.fig">
-                                                            <button type="button" class="btn btn-outline-primary buttondl">Dowload</button>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-sm-6">
-                                                         <strong><i class="fa fa-picture-o" aria-hidden="true"></i>Thiet ke trên figma</strong>
-                                                         <img src="img/design_macduong/footer-figma.jpg" style="width:100%" alt="">
-                                                        <a href="img/design_macduong/footer.fig" download="img/design_macduong/footer.fig">
-                                                            <button type="button" class="btn btn-outline-primary buttondl">Dowload</button>
-                                                        </a>
-                                                     </div>
-                                                    
-                                                </div>
-
-                                              
-                                            </div>
-
-                                            <div id="Design1" class="container tab-pane fade"><br>
-                                             
-                                              <p>Chưa hoàn thành</p>
-                                            </div>
-
-                                            <div id="Design2" class="container tab-pane fade"><br>
-						    <p>Chưa hoàn thành</p>
-                                                    
-                                            </div>
-				        <div id="Design3" class="container tab-pane fade"><br>
-						    <p>Chưa hoàn thành</p>
-                                                    
-                                            </div>
-                                          </div>
-                               </div>
-                            </div>
+                     
                         <!-- Single Tab Content -->
                        <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab-3">
                                 <div class="container">
@@ -392,8 +336,8 @@
 
     <!-- Footer Area Start -->
     <footer class="footer-area">
-        <!-- Main Footer Area -->
-        <div class="main-footer-area section-padding-80-0">
+        <!-- top-Footer -->
+        <div class="main-footer-area ">
             <div class="container">
                 <div class="row justify-content-between">
 
@@ -401,54 +345,23 @@
                         <div class="single-footer-widget mb-80">
 
                             <h2> About us</h2>
-                            <p class="mb-30">Never give up. Today is hard, tomorrow will be worse, but the day after tomorrow will be sunshine..</p>
+                            <p>Never give up. Today is hard, tomorrow will be worse, but the day after tomorrow will be sunshine..</p>
 
-                            <div class="footer-content">
-
-                                <h2> Address</h2>
-                                <div class="single-contact-info d-flex">
-                                    <div class="icon">
-                                        <i class="icon_pin"></i>
-                                    </div>
-                                    <div class="text">
-                                        <p>Nong Lam University</p>
-                                    </div>
-                                </div>
-
-                                <div class="single-contact-info d-flex">
-                                    <div class="icon">
-                                        <i class="icon_phone"></i>
-                                    </div>
-                                    <div class="text">
-                                        <p>03 889 29625</p>
-                                    </div>
-                                </div>
-
-                                <!-- Single Contact Info -->
-                                <div class="single-contact-info d-flex">
-                                    <div class="icon">
-                                        <i class="icon_mail_alt"></i>
-                                    </div>
-                                    <div class="text">
-                                        <p>hci2019group04@gmail.com</p>
-                                    </div>
-                                </div>
-
-                            </div>
+                            
                         </div>
                     </div>
 
                     <div class="col-12 col-sm-6 col-md-4 col-xl-3">
                         <div class="single-footer-widget mb-80">
 
-                            <h2>FaceBook</h2>
+                            <h2>Facebook</h2>
 
                             <div class="single-twitter-feed d-flex">
                                 <div class="tweet-icon">
                                     <i class="fa fa-facebook"></i>
                                 </div>
                                 <div class="tweet">
-                                    <a href="#">Mạc Dương</a>
+                                    <a href="https://www.facebook.com/thuthao.nguyenthi.9275439?ref=bookmarks" target="_blank">Mạc Dương</a>
                                 </div>
                             </div>
 
@@ -457,7 +370,7 @@
                                     <i class="fa fa-facebook"></i>
                                 </div>
                                 <div class="tweet">
-                                    <a href="#">Trần Minh Quang</a>
+                                    <a href="https://www.facebook.com/kin123321" target="_blank">Trần Minh Quang</a>
                                 </div>
                             </div>
 
@@ -466,7 +379,7 @@
                                     <i class="fa fa-facebook"></i>
                                 </div>
                                 <div class="tweet">
-                                    <a href="#">Ngô Minh Hải</a>
+                                    <a href="https://www.facebook.com/HAROisme" target="_blank">Ngô Minh Hải</a>
                                 </div>
                             </div>
                             <div class="single-twitter-feed d-flex">
@@ -474,45 +387,53 @@
                                     <i class="fa fa-facebook"></i>
                                 </div>
                                 <div class="tweet">
-                                    <a href="#">Minh Hiếu</a>
+                                    <a href="https://www.facebook.com/minhhieu.nguyen.98499" target="_blank">Minh Hiếu</a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-4 col-xl-3">
-                        <div class="single-footer-widget mb-80">
+                            <div class="single-footer-widget mb-80 ">
+                                    <h2>Address</h2>
 
-                            <h4 class="widget-title">Images Group</h4>
-
-                            <div class="image-group-area d-flex flex-wrap">
-
-                                <div class="picture-group">
-                                    <a href="#"><img src="img/footer3.jpg" alt=""></a>
+                                    <div class="single-twitter-feed d-flex">
+                                        <div class="tweet-icon">
+                                                <i class="icon_pin"></i>
+                                        </div>
+                                        <div class="tweet">
+                                            <a href="#">Nong Lam University</a>
+                                        </div>
+                                    </div>
+        
+                                    <div class="single-twitter-feed d-flex">
+                                        <div class="tweet-icon">
+                                                <i class="icon_phone"></i>
+                                        </div>
+                                        <div class="tweet">
+                                            <a href="#">0388929625</a>
+                                        </div>
+                                    </div>
+        
+                                    <div class="single-twitter-feed d-flex">
+                                        <div class="tweet-icon">
+                                                <i class="icon_mail_alt"></i>
+                                        </div>
+                                        <div class="tweet">
+                                            <a href="#">hcigroup04@gmail.com</a>
+                                        </div>
+                                    </div>
                                 </div>
-
-                                <div class="picture-group">
-                                    <a href="#"><img src="img/footer2.jpg" alt=""></a>
-                                </div>
-
-                                <div class="picture-group">
-                                    <a href="#"><img src="img/footer4.jpg" alt=""></a>
-                                </div>
-
-                                <div class="picture-group">
-                                    <a href="#"><img src="img/footer5.jpg" alt=""></a>
-                                </div>
-
-                            </div>
-                        </div>
+                           
+                       
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Main Footer Area End -->
+      
 
-        <!-- Copywrite Text -->
-        <div class="copywrite-area">
+        <!-- botton-footer -->
+       <div class="copywrite-area">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
