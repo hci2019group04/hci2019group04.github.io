@@ -2287,6 +2287,26 @@ input:focus {
 margin-top:20px;
 margin-left:200px;
 }
-.img_header{
-  m
+.button-design{
+  margin-left: 100px;
+}
+.button-dowall{
+  margin-left: 395px;
+  margin-top:20px;
+}
+.button-imple{
+  margin-left:830px;
+}
+.copywrite-areas{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.copywrite-texts{
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.mb-10{
+  margin-bottom: 150px;
 }

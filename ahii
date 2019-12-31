@@ -8,10 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title -->
-    <title>Group Diary | Week 3</title>
+    <title>About</title>
 
-   
+    <!-- Favicon -->
+    <!-- CSS Boostrap -->
 
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/boostrap.css">
+
+    
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -93,11 +100,11 @@
                                 <ul id="nav">
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="about.html">About</a> </li>
-                                    <li><a href="groupDiary.html">Group Diary</a></li>
+                                    <li><a href="groupdiary.html">Group Diary</a></li>
                                     <li><a href="project.html">Project</a></li>
                                     <li><a href="styleGuide.html">Style Guide</a></li>
                                     <li><a href="technology.html">Technology</a></li>
-                                    <li><a href="result.html">Result</a></li>
+                                     <li><a href="result.html">Result</a></li>
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
 
@@ -118,122 +125,144 @@
             </div>
         </div>
     </header>
-    <!-- Header Area End -->
-        <!-- BREADCRUMB -->
+
+
+
+
+
+
+         <!-- BREADCRUMB -->
 <section>
     <div class="container">
    <nav aria-label="breadcrumb" >
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="index.html" style="color: #000000"><strong>Home</strong></a></li>
-     <li class="breadcrumb-item"><a href="groupDiary.html" style="color: #000000"><strong>Group Diary</strong></a></li>
-   
+    <li class="breadcrumb-item active" aria-current="page"><a style="color: #000000"><strong>About</strong></a></li>
   </ol>
   </nav>
   </div>
 
 </section>
         <!-- /BREADCRUMB -->
-    
-    
 
-    <div class="colorlib-classes">
-        <section class="ftco-section">
-            <div class="container">
-            <div class="ftco-search">
-                <div class="row weekwork">
-                    <ul>
-                        <li ><a href="groupdiary.html">Week 1</a></li>
-                        <li><a href="groupdiary-week2.html">Week 2</a></li>
-                        <li class="actives"><a href="groupdiary-week3.html">Week 3</a></li>
-                        <li><a href="groupdiary-week4.html">Week 4</a></li>
-                        <li><a href="groupdiary-week5.html">Week 5</a></li>
-                        <li><a href="groupdiary-week6.html">Week 6</a></li>
-                        <li><a href="groupdiary-week7.html">Week 7</a></li>
-                        <li><a href="groupdiary-week8.html">Week 8</a></li>
-                        <li><a href="groupdiary-week9.html">Week 9</a></li>
-                    </ul>
-                            <div class="container">
-               <br>
-               <div class="table-responsive">
+    <section class="razo-latest-podcast-area ">
+        <div class="container">
+           
 
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                                <th>STT</th>
-                                <th>MSSV</th>
-                                <th>Họ và tên</th>
-                                <th>Công việc được giao</th>
-                                <th>Kết quả</th>
-                                <th>Tiến độ</th>
-                        </tr>
-                    </thead>
-                <tbody>
-                    <tr>
-                            <td>1</td>
-                            <td>17130182</td>
-                            <td>Trần Minh Quang</td>
-                            <td>Thiết kế trang index và tìm hiểu giá điện thoại</td>
-                            <td>Chưa hoàn thành</td>
-                            <td>30%</td>
-                    </tr>
-                    <tr>
-                            <td>2</td>
-                            <td>17130034</td>
-                            <td>Mạc Phạm Hoàng Dương</td>
-                            <td>Thiết kế trang xem sản phẩm tổng quát về Iphone</td>
-                            <td>Chưa hoàn thành</td>
-                            <td>25%</td>
-                    </tr>
-                    <tr>
-                            <td>3</td>
-                            <td>17130050</td>
-                            <td>Ngô Minh Hải</td>
-                            <td>Thiết kế trang xem sản phẩm tổng quát về Ipad</td>
-                            <td>Chưa hoàn thành</td>
-                            <td>30%</td>
-                    </tr>
-                    <tr>
-                            <td>4</td>
-                            <td>17130068</td>
-                            <td>Nguyễn Minh Hiếu</td>
-                            <td>Thiết kế trang xem sản phẩm tổng quát về Macbook</td>
-                            <td>Chưa hoàn thành</td>
-                            <td>30%</td>
-                    </tr>
-                </tbody>
+            <div class="row">
 
-                </table>
-               </div>
-                <div class="colorlib-trainers">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-12 col-md-6 ">
-                                    <div class="single-podcast-area mb-30 wow fadeInUp" data-wow-delay="100ms">
+                <!-- Single Podcast Area -->
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="single-podcast-area mb-30 wow fadeInUp" data-wow-delay="100ms">
+                        <!-- Thumbnail -->
+                        <div class="podcast-thumb">
+                            <img src="img/about_duong.jpg" alt="">
+                        </div>
+                        <!-- Content -->
+                        <div class="podcast-content">
 
-                                        <img src="img/week2_1.jpg" alt="">
+                            <h5>Mạc Phạm Hoàng Dương</h5>
+                            <p>Sinh ngày: 16/08/1999</p>
+                            <p>MSSV: 17130034</p>
+                            <p>Lớp: DH17DTC</p>
 
-                                    </div>
-                                </div>
-                                
-                                <div class="col-12 col-md-6 ">
-                                    <div class="single-podcast-area mb-30 wow fadeInUp" data-wow-delay="100ms">
+                            <div class="border-line"></div>
+                            <div class="play-download-btn d-flex align-items-center justify-content-between">
+                                <a href="https://macduong1608.tk " target="_blank"><img class="icon" href="" src="img/web.jpg" style="width:50; height:50px;"></a>
+                                <a href="https://www.facebook.com/thuthao.nguyenthi.9275439?ref=bookmarks" target="_blank"><img class="icon" href="" src="img/fb.jpg" style="width:50; height:50px;"></a>
+                                <a href="youtube.com" target="_blank"><img class="icon" href="" src="img/yt.jpg" style="width:50; height:50px;"></a>
 
-                                        <img src="img/week2_2.jpg" alt="">
-
-                                    </div>
-                                </div>
                             </div>
+                        </div>
                     </div>
-                                    
-                                    </div>
-                            </div>  
-                  
                 </div>
+
+                <!-- Single Podcast Area -->
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="single-podcast-area mb-30 wow fadeInUp" data-wow-delay="200ms">
+                        <!-- Thumbnail -->
+                        <div class="podcast-thumb">
+                            <img src="img/QUANG.jpg" alt="">
+
+                        </div>
+                        <!-- Content -->
+                        <div class="podcast-content">
+
+                            <h5>Trần Minh Quang</h5>
+                            <p>Sinh ngày: 12/02/1999</p>
+                            <p>MSSV: 17130182</p>
+                            <p>Lớp: DH17DTA</p>
+
+                            <div class="border-line"></div>
+                            <div class="play-download-btn d-flex align-items-center justify-content-between">
+
+                                <a href="http://quangtr.tk " target="_blank"><img src="img/web.jpg" style="width:50; height:50px;"></a>
+                                <a href="https://www.facebook.com/kin123321" target="_blank"><img src="img/fb.jpg" style="width:50; height:50px;"></a>
+                                <a href="youtube.com" target="_blank"><img src="img/yt.jpg" style="width:50; height:50px;"></a>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Podcast Area -->
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="single-podcast-area mb-30 wow fadeInUp" data-wow-delay="300ms">
+                        <!-- Thumbnail -->
+                        <div class="podcast-thumb">
+                            <img src="img/HAI.jpg" alt="">
+
+                        </div>
+                        <!-- Content -->
+                        <div class="podcast-content">
+
+                            <h5>Ngô Minh Hải</h5>
+                            <p>Sinh ngày: 12/12/1999</p>
+                            <p>MSSV: 17130050</p>
+                            <p>Lớp: DH17DTC</p>
+
+                            <div class="border-line"></div>
+                            <div class="play-download-btn d-flex align-items-center justify-content-between">
+                                <a href="http://ngominhhai.tk/ " target="_blank"><img class="icon" href="" src="img/web.jpg" style="width:50; height:50px;"></a>
+                                <a href="https://www.facebook.com/HAROisme" target="_blank"><img class="icon" href="" src="img/fb.jpg" style="width:50; height:50px;"></a>
+                                <a href="youtube.com" target="_blank"><img class="icon" href="" src="img/yt.jpg" style="width:50; height:50px;"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Podcast Area -->
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="single-podcast-area mb-30 wow fadeInUp" data-wow-delay="400ms">
+                        <!-- Thumbnail -->
+                        <div class="podcast-thumb">
+                            <img src="img/about_hieu.jpg" alt="">
+
+                        </div>
+                        <!-- Content -->
+                        <div class="podcast-content">
+                            
+                            <h5>Nguyễn Minh Hiếu</h5>
+
+                            <p>Sinh ngày: 12/01/1999</p>
+                            <p>MSSV: 17130068</p>
+                            <p>Lớp: DH17DTC</p>
+                            
+                            <div class="border-line"></div>
+                            <div class="play-download-btn d-flex align-items-center justify-content-between">
+                                <a href="http://nmhieu1.tk/ " target="_blank"><img class="icon" href="" src="img/web.jpg" style="width:50; height:50px;"></a>
+                                <a href="https://www.facebook.com/minhhieu.nguyen.98499" target="_blank"><img class="icon" href="" src="img/fb.jpg" style="width:50; height:50px;"></a>
+                                <a href="youtube.com" target="_blank"><img class="icon" href="" src="img/yt.jpg" style="width:50; height:50px;"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            </div>
-        </section>
-    </div>
-   
+
+        </div>
+    </section>
+    <!-- Latest Podcast Area End -->
 
     <!-- Footer Area Start -->
     <footer class="footer-area">
@@ -242,20 +271,20 @@
             <div class="container">
                 <div class="row justify-content-between">
 
-                    <div class="col-12 col-sm-6 col-md-3 ">
+                    <div class="col-12 col-sm-6 col-md-4 col-xl-3">
                         <div class="single-footer-widget mb-80">
 
-                            <h4> About us</h4>
+                            <h2> About us</h2>
                             <p>Never give up. Today is hard, tomorrow will be worse, but the day after tomorrow will be sunshine..</p>
 
                             
                         </div>
                     </div>
 
-                    <div class="col-12 col-sm-6 col-md-3 ">
+                    <div class="col-12 col-sm-6 col-md-4 col-xl-3">
                         <div class="single-footer-widget mb-80">
 
-                            <h4>Facebook</h4>
+                            <h2>Facebook</h2>
 
                             <div class="single-twitter-feed d-flex">
                                 <div class="tweet-icon">
@@ -294,72 +323,58 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-3 ">
-                        <h4>Gửi phản hồi</h4>
-                        <form>
-                            <div class="form-group">
-                                <a href="#">Lời phản hồi</a>
-                              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="phản hồi....">
-                            </div>
-                            <div class="form-group">
-                                <a href="#">Nhập Email</a>
-                              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="email...">
-                            </div>
-                          </form>
+                    <div class="col-12 col-md-4 col-xl-3">
+                            <div class="single-footer-widget mb-80 ">
+                                    <h2>Address</h2>
+
+                                    <div class="single-twitter-feed d-flex">
+                                        <div class="tweet-icon">
+                                                <i class="icon_pin"></i>
+                                        </div>
+                                        <div class="tweet">
+                                            <a href="#">Nong Lam University</a>
+                                        </div>
+                                    </div>
+        
+                                    <div class="single-twitter-feed d-flex">
+                                        <div class="tweet-icon">
+                                                <i class="icon_phone"></i>
+                                        </div>
+                                        <div class="tweet">
+                                            <a href="#">0388929625</a>
+                                        </div>
+                                    </div>
+        
+                                    <div class="single-twitter-feed d-flex">
+                                        <div class="tweet-icon">
+                                                <i class="icon_mail_alt"></i>
+                                        </div>
+                                        <div class="tweet">
+                                            <a href="#">hcigroup04@gmail.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                           
                        
                     </div>
-                    <div class="col-12 col-md-3 /">
-                        <div class="single-footer-widget mb-80 ">
-                                <h4>Address</h4>
-
-                                <div class="single-twitter-feed d-flex">
-                                    <div class="tweet-icon">
-                                            <i class="icon_pin"></i>
-                                    </div>
-                                    <div class="tweet">
-                                        <a href="#">Nong Lam University</a>
-                                    </div>
-                                </div>
-    
-                                <div class="single-twitter-feed d-flex">
-                                    <div class="tweet-icon">
-                                            <i class="icon_phone"></i>
-                                    </div>
-                                    <div class="tweet">
-                                        <a href="#">0388929625</a>
-                                    </div>
-                                </div>
-    
-                                <div class="single-twitter-feed d-flex">
-                                    <div class="tweet-icon">
-                                            <i class="icon_mail_alt"></i>
-                                    </div>
-                                    <div class="tweet">
-                                        <a href="#">hcigroup04@gmail.com</a>
-                                    </div>
-                                </div>
-                            </div>
-                       
-                   
-                </div>
                 </div>
             </div>
         </div>
       
 
         <!-- botton-footer -->
-       <div class="">
+       <div class="copywrite-area">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <!-- Copywrite Text -->
-                        <div class="copywrite-texts">
+                        <div class="copywrite-text">
                             <p>
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                 &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> Hi. Everyone | Template made <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">Group 04 </a>
+                                </script> Hi. Everyone | Template made <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Group 04 </a>
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             </p>
                         </div>
