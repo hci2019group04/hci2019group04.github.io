@@ -2189,7 +2189,7 @@ input:focus {
       height: 1px;
       background-color: #e5e5e5;
       display: block;
-      margin: 15px 0 20px 0; }
+      }
     .single-podcast-area .podcast-content .play-download-btn .music-download-btn {
       font-size: 18px;
       color: #a6a6a6; }
@@ -2309,4 +2309,34 @@ margin-left:200px;
 }
 .mb-10{
   margin-bottom: 150px;
+}
+
+.text-result a p{
+  color:#000000;
+  text-align: left;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.text{
+  text-align: center;
+}
+.header-result h6{
+  margin-left: 2px;
+  color: #e83e8c;
+}
+.result-card{
+  margin-bottom: 40px;
+}
+.result-cards{
+  margin-bottom: 80px;
+}
+.result-cardss{
+  margin-bottom: 55px;
+}
+.send{
+  margin-left:190px;
+}
+.classynavs{
+  font-size: 20px;
+  color: #fff;
 }
